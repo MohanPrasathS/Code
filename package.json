@@ -1,0 +1,27 @@
+{
+  "name": "scanner_in",
+  "version": "1.0.0",
+  "description": "A new Flutter application.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohanPrasathS/Code.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MohanPrasathS/Code/issues"
+  },
+  "homepage": "https://github.com/MohanPrasathS/Code#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  }
+}
