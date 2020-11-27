@@ -1,7 +1,7 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 insert(rollNo, date, time, status) async {
-  var url = 'http://192.168.225.224:5000/insert';
+  var url = 'https://scanner-in.herokuapp.com/insert';
   final http.Response res = await http.post(
       url,
       headers: <String, String>{

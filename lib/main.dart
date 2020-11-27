@@ -57,19 +57,19 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        child: Text("Scan!"),
-        onPressed: () async {
-          var scanResult = "17CSE28";
-          var time = DateTime.now().format(TimeFormats.standard);
-          var date = DateTime.now().format(DateTimeFormats.commonLogFormat).substring(0,11);
-          var status = "IN";
-
-          insert(scanResult, date, time, status);
-            print(scanResult);
-            print(time);
-        },
-      ),
+      // floatingActionButton: FloatingActionButton(
+      //   child: Text("Scan!"),
+      //   onPressed: () async {
+      //     var scanResult = "17CSE28";
+      //     var time = DateTime.now().format(TimeFormats.standard);
+      //     var date = DateTime.now().format(DateTimeFormats.commonLogFormat).substring(0,11);
+      //     var status = "IN";
+      //
+      //     insert(scanResult, date, time, status);
+      //       print(scanResult);
+      //       print(time);
+      //   },
+      // ),
     );
   }
 }
