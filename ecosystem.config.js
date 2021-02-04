@@ -12,7 +12,7 @@ module.exports = {
         PG_DB_PASSWD: 'password',
      },
      env_test: {
-        NODE_ENV: 'development',
+        NODE_ENV: 'production',
         PORT: process.env.PORT,
         PG_DB_HOST: 'ec2-54-159-107-189.compute-1.amazonaws.com',
         PG_DB_PORT: 5432,
